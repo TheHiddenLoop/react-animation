@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///E:/GSap/animation/card/src/app/page.js"],"sourcesContent":["\n\nimport React, { useEffect } from \"react\";\nimport { useRef } from \"react\";\nimport gsap from \"gsap\";\n\nfunction Page() {\n  const boxRef = useRef(null);\n\n  useEffect(()=>{\n    gsap.fromTo(\n      boxRef.current, {\n        opacity: 0,\n        scale: 0.3,\n\n      }\n    )\n  }, []);\n\n\n  return (\n    <section className=\"bg-[#11274a] min-h-screen flex items-center justify-center\">\n      <div className=\"w-51.25 h-51.25 bg-[linear-gradient(135deg,#1dd1a1,#54a0ff)] rounded-xl shadow-xl opacity-100\">\n        \n      </div>\n    </section>\n  );\n}\n\nexport default Page;"],"names":["Page","boxRef","fromTo","current","opacity","scale","className"],"mappings":";;;;;AAEA;AAEA;;;;;AAEA,SAASA;IACP,MAAMC,SAAS,IAAA,+MAAM,EAAC;IAEtB,IAAA,kNAAS,EAAC;QACR,wJAAI,CAACC,MAAM,CACTD,OAAOE,OAAO,EAAE;YACdC,SAAS;YACTC,OAAO;QAET;IAEJ,GAAG,EAAE;IAGL,qBACE,8OAAC;QAAQC,WAAU;kBACjB,cAAA,8OAAC;YAAIA,WAAU;;;;;;;;;;;AAKrB;uCAEeN"}}]
+}
